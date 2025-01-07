@@ -1,0 +1,59 @@
+/* ============================================== 
+            initial design starts here 
+============================================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* initial design ends here  */
+
+/* ============================================== 
+            mainDiv design starts here 
+============================================== */
+
+#mainDiv{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right , #e6b0aa , #edbb99) ;
+}
+
+#todoDiv{
+    width: 375px;
+    height: 450px;
+    overflow-y: scroll;
+    box-shadow: 2px 2px 3px gray;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+}
+
+h4{
+    text-align: center;
+}
+
+hr{
+    color: gray;
+}
+
+#inputDiv{
+    display: flex;
+    justify-content: center;
+}
+
+#taskList{
+    padding: 7px;
+    margin-top: 12px ;
+}
+
+
+/* mainDiv design ends here  */

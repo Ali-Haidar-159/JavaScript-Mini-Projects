@@ -1,0 +1,61 @@
+/* ============================================== 
+            initial design starts here 
+============================================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* initial design ends here  */
+
+/* ============================================== 
+            navDiv design starts here 
+============================================== */
+
+#navDiv{
+    padding: 1%;
+    border-bottom: 1px solid #dddddd;
+}
+
+#dropDown{
+    border: none;
+    outline: none;
+}
+
+.logoDesign{
+    width: 35px;
+    height: 35px;
+}
+
+#profileDiv,#logoDiv{
+    text-align: center;
+}
+
+#profileDiv button{
+    border: none;
+    background-color: transparent;
+
+}
+
+/* navDiv design ends here  */
+
+
+/* ============================================== 
+            main design starts here 
+============================================== */
+
+#searchBar{
+    width: 70%;
+}
+
+#ans{
+    display: none;
+}
+
+/* main design ends here  */

@@ -1,0 +1,59 @@
+/* initial design starts here  */
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Roboto",  sans-serif ;
+    background: linear-gradient(to right ,#a3e4d7 , #f9e79f );
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* initial design ends here  */
+
+/* mainWork design starts here */
+
+#workDiv{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+}
+
+#workDiv:hover{
+    box-shadow: 3px 3px 5px gray;
+}
+
+
+#fromCountryImage , #toCountryImage{
+    width: 28px;
+}
+
+#workDiv #fromDrop,#toDrop{
+    padding: 5px; 
+    border: 1px solid rgb(178, 174, 174);
+    border-radius: 5px ;
+}
+
+#workDiv #fromToDiv #exchangeIcon {
+    margin-top: 33px;
+    font-size: 20px;
+    color: #021e50;
+    text-align: center;
+}
+
+#workDiv #buttonDiv button{
+    width: 100%;
+}
+
+
+/* mainWork design ends here  */

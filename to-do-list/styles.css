@@ -1,0 +1,73 @@
+/* ============================================== 
+            initial design starts here 
+============================================== */
+
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* initial design ends here  */
+
+/* ============================================== 
+            mainDiv design starts here 
+============================================== */
+
+#mainDiv{
+    width: 350px;
+    height: 400px;
+    background-color: rgb(79, 136, 136);
+    border-radius: 10px ;
+    box-shadow: 2px 2px 3px rgb(182, 182, 182);
+    border: none;
+    padding:5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+}
+
+#heading{
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+hr{
+    color: white;
+}
+
+#createTask{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+#taskListDiv{
+    padding: 15px;
+
+}
+
+#taskListDiv #taskList li{
+    list-style-type: none;
+    padding: 2px 14px;
+    margin-bottom: 1.5rem;
+    border: 0.9px solid white;
+    border-radius: 5px;
+    display: flex;
+}
+
+
+/* mainDiv design ends here  */

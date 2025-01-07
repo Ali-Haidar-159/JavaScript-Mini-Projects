@@ -1,0 +1,84 @@
+/* ============================================== 
+            initial design starts here 
+============================================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* initial design ends here  */
+
+/* ============================================== 
+            courseDetailsDiv design starts here 
+============================================== */
+
+#courseDetailsDiv{
+    margin: 12px auto;
+    padding: 5px;
+}
+
+#courseDetailsDiv div input{
+    text-align: center;
+}
+
+#buttonDiv{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#resetButton,#calculateButton{
+    /* display: block; */
+    margin: 10px auto ;
+    width: 10rem;
+}
+
+select{
+    width: 100px;
+    text-align: center;
+}
+
+#inputCGPA{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+    background-color: #d5d8dc;
+    border-radius: 10px;
+}
+
+#inputField{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#inputField input{
+    margin: 10px;
+    text-align: center;
+}
+
+#resultDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#GPA{
+    color: #7f870c;
+    margin: 25px;
+}
+
+#CGPA{
+    color: #581845;
+    margin: 25px;
+}
+
+/* courseDetailsDiv design ends here  */

@@ -1,0 +1,115 @@
+
+/* ============================================== 
+            initial design starts here 
+============================================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* initial design ends here  */
+
+
+
+/* ============================================== 
+            AdDiv design starts here 
+============================================== */
+
+#adImageDiv{
+    width: 100%;
+}
+
+#adImageDiv img{
+    width: 20%;
+    position: relative;
+    animation-name: adAnimation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes adAnimation {
+    0% {
+        left: 0%;
+    }
+    50% {
+        left: 80%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+/* AdDiv design ends here  */
+
+/* ============================================== 
+            navbar design starts here 
+============================================== */
+
+#navbarDiv{
+    background-color: #dddddd;
+}
+
+#navbarDiv ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+#navbarDiv #searchDiv{
+    margin-left:auto;
+    padding-top:5px ;
+}
+
+#navbarDiv #searchDiv #searchField{
+    visibility: hidden;
+}
+
+/* navbar design ends here  */
+
+/* ============================================== 
+            headingDiv design starts here 
+============================================== */
+
+#headingDiv{
+    background-color: aquamarine;
+    padding: 5px;
+}
+
+#headingDiv img {
+    width: 45px;
+}
+
+#headingDiv h4{
+    display: inline-block;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* headingDiv design ends here  */
+
+
+/* ============================================== 
+            weatherDiv design starts here 
+============================================== */
+
+#weatherDiv #weatherImage img{
+    width: 100px;
+}
+
+#weatherDiv #weatherImage table{
+    display: inline;
+}
+
+#weatherDiv #weatherInfo p{
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+/* WeatherDiv design ends here  */
+

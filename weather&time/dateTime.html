@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <title>Date & Time</title>
+
+        <!-- set favicon -->
+        <link rel="icon" href="./images/clock.png">
+
+        <!-- all meta tags here  -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is a website for checking weather">
+        <meta name="keywords" content="check weather">
+        <meta name="author" content="Ali">
+
+        <style>
+
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            html{
+                scroll-behavior: smooth;
+            }
+
+            body{
+                background: linear-gradient(to right, #e8f8f5,#fef5e7) ;
+                height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            img{
+                width: 200px;
+                height: 200px;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div>
+            <img src="./images/clock2.png" alt="Image_Missing">
+        </div>
+        
+        <section id="dateTimeSec">
+
+            <div id="dateTimeDiv">
+
+                <h1 id="time">00:00:00</h1><br>
+                <h3 id="date">00-00-0000</h3>
+
+            </div>
+
+        </section>
+
+        <!-- JavaScript -->
+        <script src="./dateTime.js"></script>
+
+    </body>
+
+
+</html>

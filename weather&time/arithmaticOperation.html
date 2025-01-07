@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <title> Arithmetic Operation </title>
+
+        <!-- all meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is a practice webpage">
+        <meta name="author" content="Ali">
+
+        <!-- css -->
+        <style>
+
+            #nameDiv,#number1Div,#number2Div{
+                margin: 10px;
+            }
+
+            label{
+                display: block;
+                margin: 5px;
+                font-weight: bold;
+            }
+
+            input{
+                width: 350px;
+                height: 30px;
+                border-radius: 10px;
+            }
+
+            main{
+                height: 360px;
+            }
+
+            #mainDiv{
+                width: 30%;
+                margin: 5px auto ;
+                padding-top: 10px ;
+            }
+
+            button{
+                width: 80px;
+                margin: 3.5px;
+                background-color: tomato;
+                border: 2px solid tomato;
+                color: white;
+                font-weight: bold;
+                border-radius: 5px;
+            }
+
+            button:hover{
+                background-color: transparent;
+                color: black;
+                border: 2px solid tomato;
+                cursor: pointer;
+            }
+
+            #footerDiv{
+                background-color: gainsboro;
+                text-align: center;
+                display: flex;
+                padding: 10px;
+            }
+
+            #footerDiv div{
+                width: 50% ;
+            }
+
+            #footerDiv div #homePage{
+                background-color: rgb(84, 87, 84);
+                color: white;
+                border: none;
+                width: auto;
+                margin-top: 20px;
+                padding: 5px;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <header>
+            <h1 style="text-align: center; margin-bottom: 50px; color: tomato;">Arithmetic Operations</h1>
+        </header>
+
+        <main>
+
+
+            <div id="mainDiv">
+
+                <section id="inputSection">
+                    <div id="nameDiv">
+
+                        <label for="name">Your Name : </label>
+                        <input type="text" name="name" id="name">
+    
+                    </div>
+    
+                    <div id="number1Div">
+    
+                        <label for="number1">Number-1 : </label>
+                        <input type="number" name="number1" id="number1">
+    
+                    </div>
+    
+                    <div id="number2Div">
+    
+                        <label for="number2">Number-2 : </label>
+                        <input type="number" name="number2" id="number2">
+    
+                    </div>
+    
+                </section>
+
+                <section id="buttonSection">
+                    <button id="addBtn">Add</button>
+                    <button id="subtractBtn">Subtract</button>
+                    <button id="multiplyBtn">Multiply</button>
+                    <button id="divideBtn">Divide</button>
+                </section>
+
+                <section id="outputSection">
+                    <h3 id="output"></h3>
+                </section>
+                
+            </div>
+
+
+        </main>
+
+        <footer>
+            
+            <div id="footerDiv">
+
+                <div id="footerLeft">
+                    <button onclick="location.href = 'index.html'" id="homePage">Home Page</button>
+                </div>
+
+                <div id="footerRight">
+                    <p>Developed by <cite>Ali Haidar</cite></p>
+                </div>
+
+            </div>
+
+        </footer>
+
+
+
+        <!-- JavaScript -->
+
+        <script src="./arithmaticOperation.js"></script>
+        
+    </body>
+
+</html>
