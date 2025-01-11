@@ -13,6 +13,7 @@ Over the past few weeks, I've been learning JavaScript and have created several 
 - Weather Check App
 - AI Chatbot
 - Password Generator
+- CRUD Operation
 
 These projects are designed to help reinforce the concepts of JavaScript and make learning more hands-on.
 
