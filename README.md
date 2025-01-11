@@ -48,6 +48,8 @@ A chatbot application that uses AI to interact with users. It responds to user i
 ### 6. **Password Generator**
 A tool that generates strong, random passwords based on the user's chosen criteria, such as length and character types (uppercase, lowercase, numbers, special characters).
 
+### 7. **CRUD Operation**
+
 > More projects will be added as I continue learning JavaScript and build new applications!
 
 
