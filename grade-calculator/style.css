@@ -1,0 +1,69 @@
+/* ============================================== 
+            initial design starts here 
+============================================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* initial design ends here  */
+
+/* ============================================== 
+            header design starts here 
+============================================== */
+
+#headerDiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+#ewuLogo{
+    width: 120px;
+    margin: 10px;
+}
+
+#headerDiv h4{
+    color: #1a5276;
+}
+
+#inputCoursesDiv{
+    height: 55vh;
+}
+
+/* header design ends here  */
+
+/* ============================================== 
+            mainDiv design starts here 
+============================================== */
+
+#numberOfCourseDiv{
+    width:80%;
+}
+
+/* mainDiv design ends here  */
+
+/* ============================================== 
+            footer design starts here 
+============================================== */
+
+#footerDiv{
+    padding: 15px;
+    background-color: #ebedef;
+    text-align: center;
+}
+
+cite{
+    color: #2471a3;
+}
+
+/* footer design ends here  */
